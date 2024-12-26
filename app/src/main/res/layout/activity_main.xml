@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9"
+    android:padding="18dp">
+
+    <EditText
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="431dp"
+        android:background="@android:color/transparent"
+        android:focusable="false"
+        android:gravity="end"
+        android:inputType="none"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <GridLayout
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display"
+        android:layout_marginTop="3dp"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/button1"
+            android:text="1"
+            android:height="80dp"
+            android:backgroundTint="#B3B3B3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="2"
+            android:height="80dp"
+            android:backgroundTint="#B3B3B3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:text="3"
+            android:height="80dp"
+            android:backgroundTint="#B3B3B3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonPlus"
+            android:text="+"
+            android:height="80dp"
+            android:backgroundTint="#78A6FF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:text="4"
+            android:height="80dp"
+            android:backgroundTint="#B3B3B3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:text="5"
+            android:height="80dp"
+            android:backgroundTint="#B3B3B3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:text="6"
+            android:height="80dp"
+            android:backgroundTint="#B3B3B3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonMinus"
+            android:text="-"
+            android:height="80dp"
+            android:backgroundTint="#78A6FF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:text="7"
+            android:height="80dp"
+            android:backgroundTint="#B3B3B3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:text="8"
+            android:height="80dp"
+            android:backgroundTint="#B3B3B3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:text="9"
+            android:height="80dp"
+            android:backgroundTint="#B3B3B3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:text="*"
+            android:height="80dp"
+            android:backgroundTint="#78A6FF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:text="C"
+            android:height="80dp"
+            android:backgroundTint="#B3B3B3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button0"
+            android:text="0"
+            android:height="80dp"
+            android:backgroundTint="#B3B3B3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonEquals"
+            android:text="="
+            android:height="80dp"
+            android:backgroundTint="#78A6FF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:text="/"
+            android:height="80dp"
+            android:backgroundTint="#78A6FF"
+            android:textSize="30sp" />
+
+    </GridLayout>
+</RelativeLayout>
